@@ -12,6 +12,7 @@ echo "<br>";
 echo "Include Once: <br>";
 include("Date.php");
 include_once("Date.php");
+include_once("Date.php");
 echo "<br>";
 echo "<br>";
 
@@ -22,6 +23,7 @@ echo "<br>";
 
 echo "require_once: <br>";
 require("Date.php");
+require_once("Date.php");
 require_once("Date.php");
 
 /*Output:
