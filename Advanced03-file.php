@@ -1,6 +1,6 @@
 <?php
 $write="Open Writing...";
-$a= fopen("test.txt","r+");
+$a= fopen("test.txt","r+") or die("unable to open file test.txt");;
 $read = fread($a, filesize("test.txt"));
 if (fwrite($a,$write)==FALSE) {
 
