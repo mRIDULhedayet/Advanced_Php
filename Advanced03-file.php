@@ -40,6 +40,10 @@ Pass the test.
  if($_POST['submit']){
  echo '<pre>';
  var_dump($_FILES);
+    
+ $upload_folder = 'uploads/';
+ move_uploaded_file($_FILES['file']['tmp_name'], $upload_folder.$_FILES['file']['name']);
+ echo "Success.";
  }
   
  ?>
