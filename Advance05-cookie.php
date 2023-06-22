@@ -15,7 +15,22 @@ else {
 
  ?>
 <?php
-setcookie("lastVisit", "", time()-3600);
 
-
+/* Output:
+Inspect(Q) -> Network -> Cookies -> 
+1. Respones Cookies: 
+{
+	"Response Cookies": {
+		"lastVisit": {
+			"expires": "2023-07-19T12:54:35.000Z",
+			"value": "2:54:35 pm 22/06/23"
+		}
+	}
+}
+2. Requesr:
+{
+	"Request Cookies": {
+		"lastVisit": "2:49:54 pm 22/06/23"
+	}
+}
  ?>
