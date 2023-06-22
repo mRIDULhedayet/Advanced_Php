@@ -32,3 +32,14 @@ Pass the test.
 */
 
  ?>
+
+
+ ?>
+
+ <?php
+ if($_POST['submit']){
+ echo '<pre>';
+ var_dump($_FILES);
+ }
+  
+ ?>
