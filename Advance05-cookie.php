@@ -27,7 +27,7 @@ Inspect(Q) -> Network -> Cookies ->
 		}
 	}
 }
-2. Requesr:
+2. Request Cookies:
 {
 	"Request Cookies": {
 		"lastVisit": "2:49:54 pm 22/06/23"
