@@ -5,26 +5,26 @@
 echo "<br>";
 
 echo "Include: <br>";
-include("Date.php");
+include("Advanced01-Date.php");
 echo "<br>";
 echo "<br>";
 
 echo "Include Once: <br>";
-include("Date.php");
-include_once("Date.php");
-include_once("Date.php");
+include("Advanced01-Date.php");
+include_once("Advanced01-Date.php");
+include_once("Advanced01-Date.php");
 echo "<br>";
 echo "<br>";
 
 echo "Require: <br>";
-require("Date.php");
+require("Advanced01-Date.php");
 echo "<br>";
 echo "<br>";
 
 echo "require_once: <br>";
-require("Date.php");
-require_once("Date.php");
-require_once("Date.php");
+require("Advanced01-Date.php");
+require_once("Advanced01-Date.php");
+require_once("Advanced01-Date.php");
 
 /*Output:
 
