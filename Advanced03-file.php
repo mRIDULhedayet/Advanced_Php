@@ -37,12 +37,12 @@ Pass the test.
  ?>
 
  <?php
- if($_POST['submit']){
+ if($_POST['submit']){ //Upkoad file
  echo '<pre>';
- var_dump($_FILES);
+ var_dump($_FILES);  //display file details with array.
     
  $upload_folder = 'PHP_Basic/';
- move_uploaded_file($_FILES['file']['tmp_name'], $upload_folder.$_FILES['file']['name']);
+ move_uploaded_file($_FILES['file']['tmp_name'], $upload_folder.$_FILES['file']['name']); //move uploaded file
  echo "Success.";
  }
   
