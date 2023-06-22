@@ -41,7 +41,7 @@ Pass the test.
  echo '<pre>';
  var_dump($_FILES);
     
- $upload_folder = 'uploads/';
+ $upload_folder = 'PHP_Basic/';
  move_uploaded_file($_FILES['file']['tmp_name'], $upload_folder.$_FILES['file']['name']);
  echo "Success.";
  }
